@@ -11,10 +11,6 @@
     "fleet_server-fleet-server": {
       "enabled": true,
       "vars": {
-        "host": "${IP_ADDR}",
-        "port": [
-          8220
-        ],
         "custom": "ssl.certificate_authorities: [\"/opt/elastic/ca.crt\"]"
       },
       "streams": {}
