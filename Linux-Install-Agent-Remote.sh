@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # This will only work on Centos 7 / Rocky (it has not been tested on other distros)
-export VER=8.8.0
-export DNS=kali-purple.kali.purple
+export VER=8.18.0
+export DNS=elk.thinkit.local
 # Replace the IP address with the one for your Kali-Purple instance
-export ES_IP_ADDR=192.168.56.129
+export ES_IP_ADDR=192.168.101.5
 
 echo "$ES_IP_ADDR $DNS" >> /etc/hosts
 
